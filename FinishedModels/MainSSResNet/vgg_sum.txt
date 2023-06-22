@@ -1,0 +1,31 @@
+Model: "model_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_3 (InputLayer)        [(None, 128, 128, 3)]     0         
+                                                                 
+ block1_conv1 (Conv2D)       (None, 128, 128, 64)      1792      
+                                                                 
+ block1_conv2 (Conv2D)       (None, 128, 128, 64)      36928     
+                                                                 
+ block1_pool (MaxPooling2D)  (None, 64, 64, 64)        0         
+                                                                 
+ block2_conv1 (Conv2D)       (None, 64, 64, 128)       73856     
+                                                                 
+ block2_conv2 (Conv2D)       (None, 64, 64, 128)       147584    
+                                                                 
+ block2_pool (MaxPooling2D)  (None, 32, 32, 128)       0         
+                                                                 
+ block3_conv1 (Conv2D)       (None, 32, 32, 256)       295168    
+                                                                 
+ block3_conv2 (Conv2D)       (None, 32, 32, 256)       590080    
+                                                                 
+ block3_conv3 (Conv2D)       (None, 32, 32, 256)       590080    
+                                                                 
+ block3_conv4 (Conv2D)       (None, 32, 32, 256)       590080    
+                                                                 
+=================================================================
+Total params: 2,325,568
+Trainable params: 2,325,568
+Non-trainable params: 0
+_________________________________________________________________

@@ -1,0 +1,72 @@
+Model: "model_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 128, 128, 3)]     0         
+                                                                 
+ conv2d_37 (Conv2D)          (None, 128, 128, 64)      1792      
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 128, 128, 64)      0         
+                                                                 
+ conv2d_38 (Conv2D)          (None, 64, 64, 64)        36928     
+                                                                 
+ batch_normalization_33 (Bat  (None, 64, 64, 64)       256       
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 64, 64, 64)        0         
+                                                                 
+ conv2d_39 (Conv2D)          (None, 64, 64, 128)       73856     
+                                                                 
+ batch_normalization_34 (Bat  (None, 64, 64, 128)      512       
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 64, 64, 128)       0         
+                                                                 
+ conv2d_40 (Conv2D)          (None, 32, 32, 128)       147584    
+                                                                 
+ batch_normalization_35 (Bat  (None, 32, 32, 128)      512       
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_3 (LeakyReLU)   (None, 32, 32, 128)       0         
+                                                                 
+ conv2d_41 (Conv2D)          (None, 32, 32, 256)       295168    
+                                                                 
+ batch_normalization_36 (Bat  (None, 32, 32, 256)      1024      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_4 (LeakyReLU)   (None, 32, 32, 256)       0         
+                                                                 
+ conv2d_42 (Conv2D)          (None, 16, 16, 256)       590080    
+                                                                 
+ batch_normalization_37 (Bat  (None, 16, 16, 256)      1024      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_5 (LeakyReLU)   (None, 16, 16, 256)       0         
+                                                                 
+ conv2d_43 (Conv2D)          (None, 16, 16, 512)       1180160   
+                                                                 
+ batch_normalization_38 (Bat  (None, 16, 16, 512)      2048      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_6 (LeakyReLU)   (None, 16, 16, 512)       0         
+                                                                 
+ conv2d_44 (Conv2D)          (None, 8, 8, 512)         2359808   
+                                                                 
+ batch_normalization_39 (Bat  (None, 8, 8, 512)        2048      
+ chNormalization)                                                
+                                                                 
+ leaky_re_lu_7 (LeakyReLU)   (None, 8, 8, 512)         0         
+                                                                 
+ flatten (Flatten)           (None, 32768)             0         
+                                                                 
+ dense (Dense)               (None, 1024)              33555456  
+                                                                 
+ leaky_re_lu_8 (LeakyReLU)   (None, 1024)              0         
+                                                                 
+ dense_1 (Dense)             (None, 1)                 1025      
+                                                                 
+=================================================================
+Total params: 38,249,281
+Trainable params: 38,245,569
+Non-trainable params: 3,712
+_________________________________________________________________
