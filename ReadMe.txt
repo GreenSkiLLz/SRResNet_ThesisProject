@@ -30,3 +30,8 @@ Prediction+RenderQueue.ipynb:
 			\Input = ULR_Pic Bilder 
 			\Prediction = Ausgabe Ordner für Erzeugtes Modell:
 ______________________________________________________________________________________________________________________
+
+
+
+Video mit AI im einsatz:
+https://drive.google.com/file/d/1-2X3wgPN699jQ2Oz6IotdXhUJYOOSHaG/view?usp=sharing
